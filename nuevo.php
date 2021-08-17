@@ -8,7 +8,10 @@
 </head>
 <body>
 <?php
+//esto funciona para invocar código de archivos externos
 include("proporciona_datos.php");
+//si uso requiere y existe algun error, todo lo que esté despues no se ejecutará
+//include si ocurre un error, saltará un error pero la ejecución continuará
        getData();
     ?>
 </body>
